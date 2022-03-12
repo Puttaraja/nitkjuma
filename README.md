@@ -4,7 +4,6 @@
 
 ## 1. Download Repo
 1. ```git clone https://github.com/jithendra1798/nitkjuma.git```
-2. Change directory using the command ```cd nitkjuma```
 
 ## 2. Run the project
 3. Now run the run.sh file using the command ```./run.sh```
