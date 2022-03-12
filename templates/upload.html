@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Item Upload Page</title>    
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/CSS/ITEM_UPLOAD.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>    
+<body>
+ <h1>Item Upload Page</h1><br> 
+      
+    <div class="Item_Upload" style="height: auto;">    
+    <form id="login" method="POST" action="/store/upload/" enctype="multipart/form-data">    
+       {% csrf_token %}
+        <h2>Item Details</h2>
+       <p>Item Name : <input type="text" name="item_name" id="inputs_" placeholder="Item Name" required > </p>
+       <p>Item Disposal : Want to Disposal or Not</p>
+       <select class="drop_down" >
+        <option>Select</option>
+        <option value=1>Yes</option>
+        <option value=0>No</option>
+       </select>
+       <p>Item Type : 
+       <select name="item_type" class="drop_down" style="width: fit-content; margin-left:0%">
+        {% for category in categories %}
+        <option value={{category.id}}>{{category}}</option>
+        {% endfor %}
+       </select>
+        </p>
+      <p>Item Price : <input type="number" name="item_price" id="inputs_" required placeholder="Item Price"> </p>
+      <h3 style="color:azure; margin-left:50px;"> Upload Item Pic </h3>
+        <p>Item Pic : <input type="file" name="item_image" required placeholder="Item Pic"></p>
+    <p>Description : <textarea name="item_description" id="desc" cols="65" rows="10"  placeholder="About Item"></textarea></p>
+        <button type="submit" name="submit" id="Submit" value="Submit" >Submit</button>            
+    </form>     
+</div>
+</body>
+</html>

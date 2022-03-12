@@ -1,0 +1,42 @@
+h1{
+    text-align:center;
+    font-size:50px;
+}
+
+
+body{
+    background-image: url("../../images/bg_img.jpg");
+}
+
+     .transparentBox {
+        background: url("https://i.picsum.photos/id/249/1000/300.jpg") repeat;
+        border: 2px solid black;
+     }
+     .transparentText {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+     }
+     .transparentText p {
+        margin: 5%;
+        font-weight: bolder;
+        color: #000000;
+        font-size: 20px;
+          }
+.contact_staff{
+    text-align:center;
+
+}
+.s_btn{
+    height:35px;
+    width:100px;
+    border-color:black;
+    border-radius:15px;
+}
+.inputs_{
+    height:30px;
+    width:150px;
+    border-color:black;
+    border-radius:15px;
+}

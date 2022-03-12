@@ -1,0 +1,141 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abafeba;  
+    font-family: 'Arial'; 
+     background-image: url("C:\\Users\\Puttaraja H\\Downloads\\LOGIN BG.jpg"); 
+}  
+.Item_Upload{  
+        width: 500px;  
+        overflow: hidden;  
+        margin: auto;    
+        padding: 30px;  
+        background: #546372;  
+        border-radius: 15px ;  
+        align-content : center;
+        height:550px;
+} 
+h1{  
+    text-align: center;  
+    color: black ;  
+}   
+h2{  
+    text-align: center;  
+    color: pink ;  
+}  
+label{  
+    color: #18ddd1;  
+    font-size: 17px;  
+}  
+.drop_down{
+    height:25px;
+    width:90px;
+    border-color:black;
+    border-radius:15px;
+    align-content:center;
+    margin-left:130px;
+}
+#Uname{  
+    width: 310px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#inputs_{
+    height:30px;
+    border-radius: 10px;
+    border-color: black;
+}
+#desc{
+    border-radius: 15px;
+    border-color: black;
+}
+#Submit{  
+    width: 150px;  
+    height: 40px;  
+    border-color: rgb(19, 18, 18);  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+    align-content:center;
+    margin-left:175px;
+    text-align:center;
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+ p{
+    
+    color: #28ccd1;  
+    font-size: 21px;  
+ }
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: pink;
+  color: black;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 1440px)
+{
+
+.login {
+    width: 600PX;
+    overflow: hidden;
+    margin: auto;
+   background-image: url("C:\\Users\\Puttaraja H\\Downloads\\LOGIN BG2.jpg"); 
+    padding: 60px;
+
+}
+span {
+    color: #ddd7d7;
+    font-size: 17px;
+}
+#Pass {
+    width: 330px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Uname {
+    width: 345px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+h3{  
+    text-align: center;  
+    color: solid green ;  
+    padding: 20px;  
+}  
+}
+@media screen and (min-width : 1441px) and (max-width: 2560px)
+{
+    .login {
+    width: 800px;
+    height: 900px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px;
+    background: #546372;
+    border-radius: 15px;
+    background-image: url("C:\\Users\\Puttaraja H\\Downloads\\LOGIN BG1.jpg");
+}
+}
+
+
