@@ -25,7 +25,7 @@ A student who finishes his / her studies at NITK might want to sell  or give awa
 Objective: Develop a portal that gives information about sellers and prospective buyers and match one to the other.
 
 ## 5. Motivation
-	NITK students who will leave the campus in a month or a week. It’s not possible for them to carry out all their belongings back home. Instead, they want to sell them. Let’s say books. The students who are leaving the campus may not require some books and would like to give them to their juniors or freshers at a reasonable price. There are many things other than books. Accessories like Keyboard, Extension Boxes, LAN cables, Printers, and Room essentials like mattresses, Buckets, Hangers, and Stationery (Drafters), etc… and umbrellas.
+NITK students who will leave the campus in a month or a week. It’s not possible for them to carry out all their belongings back home. Instead, they want to sell them. Let’s say books. The students who are leaving the campus may not require some books and would like to give them to their juniors or freshers at a reasonable price. There are many things other than books. Accessories like Keyboard, Extension Boxes, LAN cables, Printers, and Room essentials like mattresses, Buckets, Hangers, and Stationery (Drafters), etc… and umbrellas.
   
 It's not easy for them to search for a suitable person who wants to buy or sell  those things unless they know it through some media. Also It is not possible for the student to ask every other student if they are willing to buy or sell the things. Also, the students who leave the college in a couple of days want to find the buyers at the earliest possible.
 
@@ -39,4 +39,6 @@ There are few existing solutions to this problem. But they are not effective. So
 In such platforms, usually we need to wait for the buyer to approach us. This keeps the seller wait for hours, days, even months. In the problem statement, the student wants to sell them quickly. For which we added a feature for the buyers to request the item forehand. 
 
 Even when buyer is found and he is at far distance, it might not be worthy enough to travel to deliver the item. To prevent this, we restrict this solution only to the students inside the college.
+
+
 
